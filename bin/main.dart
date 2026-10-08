@@ -9,6 +9,7 @@ import 'package:programacion_basica_dart/ejercicios/ejercicio_07_remainder_finde
 import 'package:programacion_basica_dart/ejercicios/ejercicio_08_sum_of_evens.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_09_fraction_difference.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_10_string_length.dart';
+import 'package:programacion_basica_dart/ejercicios/ejercicio_11_average_of_four.dart';
 
 void main() {
   var salir = false;
@@ -39,6 +40,8 @@ void main() {
         ejercicio9FractionDifference();
       case '10':
         ejercicio10StringLength();
+      case '11':
+        ejercicio11AverageOfFour();
       case '0':
         salir = true;
         print('¡Hasta luego!');
@@ -68,6 +71,7 @@ void mostrarMenu() {
   print(' 8.  Sum of Evens');
   print(' 9.  Fraction Difference');
   print(' 10. String Length');
+  print(' 11. Average of Four');
   print(' 0.  Salir');
   print('==========================================');
   stdout.write('Seleccione un ejercicio: ');

@@ -12,6 +12,7 @@ import 'package:programacion_basica_dart/ejercicios/ejercicio_10_string_length.d
 import 'package:programacion_basica_dart/ejercicios/ejercicio_11_average_of_four.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_12_smallest_of_five.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_13_vowel_counter.dart';
+import 'package:programacion_basica_dart/ejercicios/ejercicio_14_factorial_finder.dart';
 
 void main() {
   var salir = false;
@@ -48,6 +49,8 @@ void main() {
         ejercicio12SmallestOfFive();
       case '13':
         ejercicio13VowelCounter();
+      case '14':
+        ejercicio14FactorialFinder();
       case '0':
         salir = true;
         print('¡Hasta luego!');
@@ -80,6 +83,7 @@ void mostrarMenu() {
   print(' 11. Average of Four');
   print(' 12. Smallest of Five');
   print(' 13. Vowel Counter');
+  print(' 14. Factorial Finder');
   print(' 0.  Salir');
   print('==========================================');
   stdout.write('Seleccione un ejercicio: ');

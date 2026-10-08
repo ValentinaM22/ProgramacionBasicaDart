@@ -7,6 +7,7 @@ import 'package:programacion_basica_dart/ejercicios/ejercicio_05_midweek_day.dar
 import 'package:programacion_basica_dart/ejercicios/ejercicio_06_tax_calculator.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_07_remainder_finder.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_08_sum_of_evens.dart';
+import 'package:programacion_basica_dart/ejercicios/ejercicio_09_fraction_difference.dart';
 
 void main() {
   var salir = false;
@@ -33,6 +34,8 @@ void main() {
         ejercicio7RemainderFinder();
       case '8':
         ejercicio8SumOfEvens();
+      case '9':
+        ejercicio9FractionDifference();
       case '0':
         salir = true;
         print('¡Hasta luego!');
@@ -60,6 +63,7 @@ void mostrarMenu() {
   print(' 6.  Tax Calculator');
   print(' 7.  Remainder Finder');
   print(' 8.  Sum of Evens');
+  print(' 9.  Fraction Difference');
   print(' 0.  Salir');
   print('==========================================');
   stdout.write('Seleccione un ejercicio: ');

@@ -3,6 +3,7 @@ import 'package:programacion_basica_dart/ejercicios/ejercicio_01_positive_power.
 import 'package:programacion_basica_dart/ejercicios/ejercicio_02_double_or_triple.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_03_root_or_square.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_04_circle_perimeter.dart';
+import 'package:programacion_basica_dart/ejercicios/ejercicio_05_midweek_day.dart';
 
 void main() {
   var salir = false;
@@ -21,6 +22,8 @@ void main() {
         ejercicio3RootOrSquare();
       case '4':
         ejercicio4CirclePerimeter();
+      case '5':
+        ejercicio5MidweekDay();
       case '0':
         salir = true;
         print('¡Hasta luego!');
@@ -44,6 +47,7 @@ void mostrarMenu() {
   print(' 2.  Double or Triple');
   print(' 3.  Root or Square');
   print(' 4.  Circle Perimeter');
+  print(' 5.  Midweek Day');
   print(' 0.  Salir');
   print('==========================================');
   stdout.write('Seleccione un ejercicio: ');

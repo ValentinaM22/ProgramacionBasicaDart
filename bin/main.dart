@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_01_positive_power.dart';
 import 'package:programacion_basica_dart/ejercicios/ejercicio_02_double_or_triple.dart';
+import 'package:programacion_basica_dart/ejercicios/ejercicio_03_root_or_square.dart';
 
 void main() {
   var salir = false;
@@ -15,6 +16,8 @@ void main() {
         ejercicio1PositivePower();
       case '2':
         ejercicio2DoubleOrTriple();
+      case '3':
+        ejercicio3RootOrSquare();
       case '0':
         salir = true;
         print('¡Hasta luego!');
@@ -36,6 +39,7 @@ void mostrarMenu() {
   print('==========================================');
   print(' 1.  Positive Power');
   print(' 2.  Double or Triple');
+  print(' 3.  Root or Square');
   print(' 0.  Salir');
   print('==========================================');
   stdout.write('Seleccione un ejercicio: ');

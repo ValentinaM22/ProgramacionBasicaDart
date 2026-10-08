@@ -1,0 +1,7 @@
+name: programacion_basica_dart
+description: Solución a los 15 ejercicios de fundamentos de programación, implementados en Dart.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0

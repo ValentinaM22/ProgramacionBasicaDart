@@ -1,0 +1,12 @@
+# Archivos generados por Dart
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# Editor / sistema
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

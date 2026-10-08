@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:programacion_basica_dart/ejercicios/ejercicio_01_positive_power.dart';
 
 void main() {
   var salir = false;
@@ -9,6 +10,8 @@ void main() {
     print('');
 
     switch (opcion) {
+      case '1':
+        ejercicio1PositivePower();
       case '0':
         salir = true;
         print('¡Hasta luego!');
@@ -28,6 +31,7 @@ void mostrarMenu() {
   print(' EJERCICIOS DE FUNDAMENTOS DE PROGRAMACIÓN');
   print('                 (Dart)');
   print('==========================================');
+  print(' 1.  Positive Power');
   print(' 0.  Salir');
   print('==========================================');
   stdout.write('Seleccione un ejercicio: ');

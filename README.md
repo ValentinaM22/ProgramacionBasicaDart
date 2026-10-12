@@ -38,10 +38,10 @@ datos solicitados y presione ENTER para volver al menú. Escriba `0` para salir.
 ## Estructura
 
 ```
-bin/main.dart              Menú principal
-lib/ejercicios/            Un archivo por ejercicio
-lib/utils/entrada.dart     Lectura y validación de datos (leerEntero, leerDouble, ...)
-pubspec.yaml               Configuración del paquete Dart
+bin/programacion_basica_dart.dart   Menú principal (punto de entrada)
+lib/ejercicios/                     Un archivo por ejercicio
+lib/utils/entrada.dart              Lectura y validación de datos (leerEntero, leerDouble, ...)
+pubspec.yaml                        Configuración del paquete Dart
 ```
 
 ## Flujo de trabajo en Git
